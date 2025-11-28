@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+.texto_raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav */
+.contenedor{
+   margin: auto;
+    max-width: 1200px;
+}
+.nav{
+    padding: 25px 0 25px  0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navegador_menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.redes{
+    width: 20%;
+    display: flex;
+    gap: 15px;
+}
+i{
+color: white;
+font-size: 30px;
+}
+/* banner inicio */
+
+.banner .banner_informacion img{
+    margin-top: 60px;
+    width: 500px;
+    height: 200px;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner_integrantes img{
+    margin-top: 120px;
+    width:600px;
+    height: 500px;
+}
+
+.banner_img {
+    background-image: url(img/fondo.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+.banner_texto {
+    width: 400px;  
+    position: relative;
+    top: 50px;
+}
+/* carrousel */
+
+.carousel-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+}
+
+.carousel-item-Reynols {
+    position: relative;
+    background-image: url('img/fondoguitarrista1.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+}
+
+.banner-integrante {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.img-integrante {
+    margin-top: auto;
+    height: 100%;
+    width: 55%; 
+}
+
+.img-integrante .principal-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.info-integrante {
+    width: 35%;
+}
+
+.info-integrante {
+    color: #A4222C;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.info-integrante h1{
+    font-family: "Cinzel Decorative";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.info-integrante .rol {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.info-integrante .descripcion {
+    color: #313131;
+    font-size: 26px;
+}
