@@ -82,12 +82,18 @@ font-size: 30px;
 
 .carousel-item-Reynols {
     position: relative;
-    background-image: url('img/fondoguitarrista1.png');
+    background-image: url('img/baner vocalista.png');
     background-size: cover;
     background-position: center;
     height: 800px; 
 }
-
+.carousel-item-wayne  {
+    position: relative;
+    background-image: url('fondoguitarrista1.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+}
 .banner-integrante {
     display: flex;
     align-items: center;
@@ -139,6 +145,7 @@ font-size: 30px;
     font-size: 20px;
 
 }
+
 
 
 
